@@ -26,6 +26,7 @@ export const EXPERIENCES = [
     role: "10th Class",
     company: "V.V. D.A.V. Public School, Delhi",
     description: `Passed with 96.2% in 10th CBSE Exams`,
+    technologies: [],
   },
 ];
 
