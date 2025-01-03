@@ -1,6 +1,7 @@
 import { RiReactjsLine } from "react-icons/ri";
 import { AiFillHtml5, AiFillGithub } from "react-icons/ai";
-import { DiCss3, DiJavascript1, DiFirebase, DiMongodb, DiMysql, DiPython, DiCode } from "react-icons/di";
+import { DiCss3, DiJavascript1, DiFirebase, DiMongodb, DiMysql, DiPython, DiCode, DiJava } from "react-icons/di";
+import { SiC } from "react-icons/si";
 
 const Technologies = () => {
   return (
@@ -33,6 +34,12 @@ const Technologies = () => {
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4 hover:scale-110 hover:shadow-[0_0_15px_#F34B7D] transition">
           <DiCode className="text-5xl text-red-500" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4 hover:scale-110 hover:shadow-[0_0_15px_#00599C] transition">
+          <SiC className="text-5xl text-blue-500" />
+        </div>
+        <div className="rounded-2xl border-4 border-neutral-800 p-4 hover:scale-110 hover:shadow-[0_0_15px_#007396] transition">
+          <DiJava className="text-5xl text-red-700" />
         </div>
         <div className="rounded-2xl border-4 border-neutral-800 p-4 hover:scale-110 hover:shadow-[0_0_15px_#000000] transition">
           <AiFillGithub className="text-5xl text-black" />
