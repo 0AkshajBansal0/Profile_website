@@ -32,25 +32,25 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "Krishi-Connect",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "A platform connecting farmers and wholesalers, featuring real-time crop listings, fair pricing, weather-based insights, and user authentication.",
+    technologies: ["HTML", "CSS", "Express.js", "FireBase"],
   },
   {
-    title: "Task Management App",
+    title: "Weather_Cast",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
-    technologies: ["HTML", "CSS", "Angular", "Firebase"],
+      "A dynamic weather app providing real-time weather updates, forecasts, and location-based insights with an intuitive user interface.",
+    technologies: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Portfolio Website",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+      "An engaging personal portfolio website highlighting projects, skills, achievements, and contact details with a modern design and seamless user experience.",
+    technologies: ["HTML", "Tailwind-CSS", "React.js",],
   },
 ];
 
